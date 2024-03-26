@@ -109,6 +109,25 @@
             <scope>test</scope>
         </dependency>
 
+<!--        Ehcache缓存集成-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+            <version>2.5.2</version>
+        </dependency>
+
+        <!--ehcache-->
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.9.6</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>
